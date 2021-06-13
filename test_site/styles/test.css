@@ -1,0 +1,102 @@
+@font-face{
+    font-family: 'MyFont';
+    src: url("../fonts/Ronde-B_square.otf");
+}
+.fa-twitter::before {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+}
+
+h1 {
+    font-family: "MyFont";
+    font-size: 3rem;
+}
+
+img {
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:950PX;
+}
+
+.top-image {
+    /* background-image: url('../images/20210523_IMG_4008_DEV.jpg'); */
+    width:auto;
+    height:auto;
+    max-width:100%;
+    max-height:100%;
+}
+
+.lopan-tabs .tab-btn a, .lopan-tabs .tab-btn label, .lopan-tabs .tab-btn li {
+    display: flex;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: "MyFont";
+}
+
+.lopan-tabs .tab-btn a, .lopan-tabs .tab-btn label {
+    flex-basis: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1em;
+}
+
+.lopan-tabs .tab-btn li {
+    /* margin: 10; */
+    flex-basis: 20%;
+    max-width: 8em;
+    height: 44px;
+    font-size: 1.6rem;
+
+    padding: 0;
+    border-right: #fff 0.5px solid;
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+        flex-basis: 20%;
+    max-width: 8em;
+    height: 44px;
+    font-size: 1.6rem;
+}
+
+.lopan-tabs .tab-btn {
+    list-style: none;
+    /* z-index: 10;
+    position: absolute; */
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #868686;
+    text-align: center;
+    background-color: rgba(55,48,57,.8);
+    display: flex;
+    /* justify-content: space-between; */
+    justify-content: start;
+}
+
+.lopan-tabs .tab-btn-end {
+    justify-content: end;
+}
+
+.title-flex {
+    display: flex;
+    /* background-image: url('../images/73880002.png'); */
+}
+
+.title-felx svg, .title-flex h1 {
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+.main {
+    margin-left:auto;
+    margin-right:auto;
+    text-align:left; 
+    width: 90%;
+    max-width: 1024px;
+    background-image: url('../images/nijitate.png'); 
+    background-repeat: no-repeat;
+}
